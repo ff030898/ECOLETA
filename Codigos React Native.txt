@@ -1,0 +1,15 @@
+npm install -g expo-cli
+expo init (nome_do_projeto)
+npm start //executa servidor
+expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto // instalar fonts
+npm install @react-navigation/native //instalar
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+npm install @react-navigation/stack //instalar
+expo install react-native-maps //Usar mapas dentro da aplicação
+expo install expo-constants //stilo do css
+expo install react-native-svg //Imagens SVG
+npm install axios //Trabalhar com API
+expo install expo-location //Localização do usuário
+expo install expo-mail-composer //enviar email
+npm install react-native-picker-select //Usar comboBox
+

@@ -1,0 +1,60 @@
+npm init -y //criar projeto
+
+code . //abrir no visual code
+
+npm install express //express é um micro framework para lidar com rotas
+
+criar pasta src
+
+//usando typeScript
+npm install @types/express -D //dependencia de Tipagem TypeScript apenas em abiente de Desenvolvimento pq em produção vai converter de typeScript para JS
+server.ts 
+
+npm install ts-node -D //converte TypeScript para JavaScript para o Node entender
+npm install typescript -D // instalar o TypeScript
+npx tsc --init //Cria o arquivo de configuração do TypeScript
+
+npx ts-node src/server.ts //executar servidor
+
+npm install ts-node-dev -D //Executa servidor sempre que houver uma mudança
+
+npx ts-node-dev src/server.ts //executar servidor
+
+dentro de package.json criar um srcipt com o nome de dev=>ts-node-dev --ignore-watch node_modules src/server.ts
+
+npm run dev //executa servidor
+
+npm install knex //Digitar as Query em JavaScript
+npm install sqlite3 //Instaalr o banco que vai usar. Pode ser Mysql entre outros
+
+//depois de criar as migrations
+
+npx knex --knexfile Knexfile.ts migrate:latest //migrate:latest se der erro coloca dps de npm knex
+//criar um script com o comando no packge.json e depois executa como
+npm run knex:migrate
+
+npm install cors //Habilitar Clientes a Consumir dados
+npm install @types/cors -D
+
+
+
+SPA => SINGLE PAGE APPLICATION
+GET: BUSCAR UMA OU MAIS INFORMAÇÕES DO BACK-END
+POST: CRIAR UMA NOVA INFORMAÇÃO NO BACK-END
+PUT: ATUALIZAR UMA INFORMAÇÃO EXISTENTE NO BACK-END
+DELETE: REMOVER UMA INFORMAÇÃO DO BACK-END
+
+REQUEST PARAM: PARÂMETROS QUE VEM NA PRÓPRIA ROTA QUE IDENTIFICAM UM RECURSO
+QUERY PARAM: PARÂMETROS QUE VEM NA PRÓPRIA ROTA GERALMENTE OPCIONAIS PARA FILTROS, PAGINAÇÃO
+REQUEST BODY: PARÂMETROS PARA CRIAÇÃO/ATUALIZAÇÃO DE INFORMAÇÕES
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+JSX = HTML DENTRO DO JAVASCRIPT - SINTAXE DE XML DENTRO DO JAVASCRIPT
+
+npx create-react-app web --template=typescript
+npm install react-icons
+npm install react-router-dom //Rotas
+npm install @types/react-router-dom -D
+
+npm install react-leaflet # npm
+yarn add react-leaflet # Yarn //Instalar o mapa
+yarn add @types/react-leaflet
+
+npm install axios //requisição com a API
